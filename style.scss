@@ -1,0 +1,241 @@
+$primary:#242934;  
+// $primary: #0a1b21;  
+// $primary: #16100d;  
+$light:#f6fafb;
+// $light:#97aeb1;
+// $light:#c9c1b4;
+$secondary:#8ea8f3;
+// $secondary:#efb650;
+// $secondary:#fc2527;
+// $secondary:#e7ae3b;
+
+$gray:#424853;
+$color:gray;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+position: fixed;
+z-index: 2;
+top: 0px;
+
+background-color: $light;
+}
+
+.slider{
+    background-color:$light ;
+    height: 100vh;
+}
+
+.hemburger{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    float: left;
+}
+
+.icon01
+{
+
+    text-align: right;
+}
+
+.logo
+{
+
+    text-align: center;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 694px;
+}
+
+.shop img{
+    // display: flex;
+    width: 116px;
+    height: 227px;
+}
+
+.shopparent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.shop{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+
+    // width: 0%;
+}
+
+.secure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // align-items: center;
+}
+
+
+// .sec{
+//     display: flex;
+//     flex-direction: column;
+//     align-items:center;
+//     justify-content: space-around;
+// }
+.d-flex {
+    display: flex;
+    // text-align:center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    // justify-self: center;
+    // align-self: center;
+}
+.d-flex i{
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+
+
+.sofa img{
+    width: 80%;
+    height:80%;
+    float: right;
+}
+.cutomize{
+   padding-left: 50px;
+}
+.des_btn{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.desing_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.desings{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.desing{
+    margin-right: 20px;
+}
+
+.ul li {
+    color: $light;
+    text-decoration: none;
+    padding: 20px;
+}
+ul a i {
+    color: $light;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 2rem;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.room img{
+    width: 257px;
+    height: 317px;
+}
+.room {
+    width: 257px;
+    height: 317px;
+    background-color: white;
+    // box-shadow:    0 .5rem 1rem rgba(black, .15);;
+    // box-shadow: 10px 10px 5px black;
+
+}
+.shadow{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.roomcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5rem;
+    // column-gap: 3rem;
+}
+
+.roomcolumn
+{
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.para{
+    color: $color;
+}
+
+.lastfooter{
+    background-color: $gray;
+}
+// .mobile 
+// {
+//     // display: none;
+//     overflow: hidden;
+// }
+// mediaquary
+
+.mobile_view{
+display: none;
+}
+// .web_view{
+// display: none;
+// }
+
+    @media  (max-width: 773px) {
+        .mobile_view{
+            display:block!important;
+        }
+    } 
+    @media  (max-width: 773px) {
+        .web_view{
+            display:none!important;
+        }
+    } 
+
+
+
+    // @media  (min-width: 773px) {
+    //     .sofa img{
+    //        float:none;
+    //     }
+    // } 
+
